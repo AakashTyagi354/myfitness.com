@@ -1,0 +1,57 @@
+.home{
+    height: calc(100vh - 4rem);
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding-top: 4rem;
+    display: flex;
+    .left{
+      flex: 1;
+      p{
+       
+        margin-top: 10rem;
+          font-size: 4rem;
+              text-transform: uppercase;
+              font-family: 'Bebas Neue', cursive;
+              letter-spacing: 1px;
+             margin-left: 8rem;
+            
+       
+
+       }
+       h4{
+        letter-spacing: 1px;
+        color: gray;
+      margin-top: 0.8rem;
+        padding-left: 8rem;
+            font-family: 'Roboto Condensed', sans-serif;
+        
+      }
+      
+     
+      .btn{
+          background-color: blue;
+          height: 2.8rem;
+          width: 19.4rem;
+          color: white;
+          font-family: 'Roboto Condensed', sans-serif;
+          letter-spacing: 1.4px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 5px;
+          margin-left: 8rem;
+          margin-top: 2rem;
+          cursor: pointer;
+      }
+      
+    }
+    .right{
+          flex: 1;
+          img{
+              height: 100%;
+              width: 70%;
+              float: right;
+          }
+ 
+    }
+}
